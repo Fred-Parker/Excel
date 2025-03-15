@@ -22,19 +22,28 @@ It is my opinion that in this particular dataset of bike sales the data showing 
   - From North America 
   - With commutes up to 1 mile  
 
-- Customers with a **bachelor's degree**, **higher average incomes**, and **homeowners** tend to buy more bikes.  
+- Customers with a **bachelor's degree**, **higher average incomes**, and **homeowners** tend to buy more bikes.
+- Customers who reported being **married** purchased **7% more bikes** than those who reported being **single**.
+- **Middle aged customers** (aged 31 to 54) owned **more bikes than other age demographics**.
+- **North America had the highest number of reported sales per region**. Reported sales here were higher than in Europe and in the Pacific regions. 
 
 ---
 
 <hr>
 <h2 id="results & conclusions">Results & Conclusions</h2>
 
-1. **Increase Sales in Other Age Groups**:  
+1. **Increase Sales in Other Age Groups Than Middle-Aged**:  
    - Offer discounts to adolescents and the elderly as they typically have lower incomes compared to middle-aged customers.
+   - Showcasing bikes as a product and biking as a lifestyle that can be exciting, and aventurous would help to boost sales for younger demographics. Biking as a means to gain / maintain personal freedom and health would also help to appeal to those in older age demographics.  
 
 2. **Boost Sales Among Women**:  
    - Focus marketing strategies on designing bikes that are more comfortable and visually appealing to women.  
-   - Conduct surveys to understand women's preferences, such as colour, seat type, and accessories (e.g., baskets).
+   - Conduct surveys to understand women's preferences, such as colour, seat type, and accessories (e.g., bike features, and styles).
+   - The sales data indicates a trend amongst p
+     
+3. **Target Sales for Those Living in Cities & Large Towns**
+   - The sales data indicates a trend in positive sales amongst those who live within an hours commute from their place of work. Typically, this will include larger towns and cities where the majority of transport is accessible and there are safe biking paths and routes to and from work.
+   - One potential way of capitalising on these areas for sales could be to run 'cycle to work' initiatives and marketing campaigns that sell the diea of cycling to work as a healthy and viable alternative to regular, tarditional modes of transport. 
   
   ---
 
@@ -84,10 +93,22 @@ It is my opinion that in this particular dataset of bike sales the data showing 
 
 <hr>
 <h2 id="screenshots">Screenshots</h2>
+
+Here is an example of the dashboard I created allowing for quick and intuitive analysis of the data contained in the dataset:
+![image](https://github.com/user-attachments/assets/0b0d9a9e-5abf-43c8-b99c-286c89c5c9b1)
+
 Here is a section of the dataset in its raw format:
-  ![image](https://github.com/user-attachments/assets/8c4ae3ba-15f0-45a2-bb17-0d321a2469ab)
+![image](https://github.com/user-attachments/assets/8c4ae3ba-15f0-45a2-bb17-0d321a2469ab)
 
 Here is the same section of the dataset after data-cleaning:
 ![image](https://github.com/user-attachments/assets/33bf79b2-e649-4870-a559-0641180b13fc)
+
+During the process of cleaning the data I removed 26 unnecessary duplicate values that were identified:
+![image](https://github.com/user-attachments/assets/807136ba-11b2-4598-9ae8-78d3d35583dd)
+
+I made numerous replacements of values in the Marital Status Column. By using the **REPLACE** function I swapped the M & S values for a  more easy to read Married & Single variable options:
+![image](https://github.com/user-attachments/assets/8e20956e-34f1-487f-ada5-1ed76c036153)
+
+
 
 
